@@ -1,0 +1,19 @@
+Dependencies for Project 'Lab2', Target 'HelloLaunchPad': (DO NOT MODIFY !)
+F (.\startup.s)(0x5701FDF8)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Tools\Keil u4\ARM\RV31\INC"-I "C:\Tools\Keil u4\ARM\CMSIS\Include"-I "C:\Tools\Keil u4\ARM\Inc\Luminary"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x5C0EC491)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "C:\Tools\Keil u4\ARM\RV31\INC"-I "C:\Tools\Keil u4\ARM\CMSIS\Include"-I "C:\Tools\Keil u4\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (Nokia5110.c)(0x5B3A4F90)
+I (Nokia5110.h)(0x5BB0C6E5)
+I (PLL.c)(0x5230FF84)
+I (PLL.h)(0x5230FF84)
+I (tm4c123gh6pm.h)(0x5BFDD2E0)
+I (C:\Tools\Keil u4\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (SysTick.h)(0x5BFC3736)
+I (states.h)(0x5C09BAAC)
+I (ADCSWTrigger.h)(0x5C0821AD)
+F (.\states.c)(0x5C0EC8F7)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "C:\Tools\Keil u4\ARM\RV31\INC"-I "C:\Tools\Keil u4\ARM\CMSIS\Include"-I "C:\Tools\Keil u4\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\states.o --omf_browse .\states.crf --depend .\states.d)
+I (C:\Tools\Keil u4\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5BFDD2E0)
+I (states.h)(0x5C09BAAC)
+F (.\ADCSWTrigger.c)(0x5C0821AD)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "C:\Tools\Keil u4\ARM\RV31\INC"-I "C:\Tools\Keil u4\ARM\CMSIS\Include"-I "C:\Tools\Keil u4\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\adcswtrigger.o --omf_browse .\adcswtrigger.crf --depend .\adcswtrigger.d)
+I (ADCSWTrigger.h)(0x5C0821AD)
+I (C:\Tools\Keil u4\ARM\Inc\Luminary\lm4f120h5qr.h)(0x532CB86E)
